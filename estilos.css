@@ -1,15 +1,44 @@
 body {
-    background-color:#cccccc ;
+   
 }
 
-h1{
+img {
+    width: 100%;
+}
+
+h1 {
     text-align: center;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
 }
 
 p {
     text-align: center;
-
 }
- em p {
-    color : red
- }
+
+em strong {
+    color: red;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
