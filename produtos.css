@@ -1,9 +1,23 @@
 header {
     background: #CCCCCC;
-}
+    padding: 20px 0;
+}   
+ 
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+ }
+
+ nav {
+    position:absolute
+    top: 110px;
+    right: 0;
+ }
 
 nav li {
     display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
@@ -12,6 +26,11 @@ nav a {
     font-weight:  bold;
     font-size: 22px;
     text-decoration: none;
+}
+ 
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 .produtos {
@@ -28,6 +47,15 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+}
+
+.produto li :hover {
+    border-color: #c78c19;
+}
+
+.produto li :active {
+   border-color: #088c19; 
+   
 }
 
 .produtos h2 {
